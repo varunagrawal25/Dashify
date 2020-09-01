@@ -1,0 +1,265 @@
+#support_heading1{
+    position: absolute;
+width: 622px;
+height: 54px;
+left: 490px;
+top: 188px;
+
+/* 2 */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #3E435D;
+}
+
+#support_heading2{
+    position: absolute;
+width: 355px;
+height: 29px;
+left: 404px;
+top: 538px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #3E435D;
+}
+
+.subsupport_heading{
+    position: absolute;
+    width: 55px;
+    height: 23px;
+    
+    top: 1573px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#subsupport_heading1{
+    left: 366px;
+}
+
+#subsupport_heading2{
+    left: 762px;
+}
+
+#subsupport_heading3{
+    left: 1167px;
+}
+.support_contant{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 142.7%;    
+    color: #000000;  
+    opacity: 0.6;
+}
+
+#support_contant1{
+    position: absolute;
+width: 493px;
+height: 78px;
+left: 543px;
+top: 252px;
+text-align: center;
+}
+#support_contant2{
+    /* position: absolute;
+width: 227px;
+height: 21px;
+left: 383px;
+top: 398px; */
+
+position: absolute;
+width: 793px;
+height: 50px;
+left: 319px;
+top: 383px;
+border-color:  #8264C6 ;
+border-radius: 5px;
+padding-left:20px;
+}
+#support_contant3{
+    position: absolute;
+width: 201px;
+height: 23px;
+left: 618px;
+top: 1171px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+opacity: 0.6;
+}
+#support_contant4{
+    position: absolute;
+    width: 89px;
+    height: 21px;
+    left: 841px;
+    top: 1171px;
+}
+#support_contant5{
+    position: absolute;
+    width: 261px;
+    height: 63px;
+    left: 263px;
+    top: 1613px;
+    text-align: center;
+}
+
+#support_contant6{
+    position: absolute;
+width: 261px;
+height: 63px;
+left: 659px;
+top: 1613px;
+text-align: center;
+}
+
+#support_contant7{
+    position: absolute;
+    width: 261px;
+    height: 63px;
+    left: 1064px;
+    top: 1613px;
+    text-align: center;
+}
+
+#Search_box{
+position: absolute;
+width: 161px;
+height: 50px;
+left: 1120px;
+top: 383px;
+
+/* 222 */
+
+background: linear-gradient(180deg, #8264C6 0%, #5D80E2 100%);
+border-radius: 5px;
+border: none;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+
+
+#line{
+    position: absolute;
+width: 89px;
+height: 0px;
+left: 840px;
+top: 1187px;
+}
+
+#support_email{
+    position: absolute;
+width: 102.22px;
+height: 99.25px;
+left: 341px;
+top: 1427px;
+}
+
+#support_call{
+    position: absolute;
+width: 105.18px;
+height: 92.59px;
+left: 1140px;
+top: 1430.7px;
+}
+
+#support_chat{
+    position: absolute;
+    width: 99.99px;
+    height: 99.25px;
+    left: 744px;
+    top: 1427px; 
+}
+
+/* #modal_box{
+    position: absolute;
+width: 556px;
+height: 687px;
+background: #FFFFFF;
+left: 200px;
+box-shadow: 0px 50px 60px rgba(96, 76, 140, 0.15);
+border-radius: 10px;
+} */
+
+#modal_header{
+    position: absolute;
+width: 556px;
+height: 88px;
+left:0px;
+top: 0px;
+background: linear-gradient(270.01deg, #8264C6 5.49%, #5D80E2 92.71%);
+mix-blend-mode: normal;
+border-radius: 10px 10px 0px 0px;
+}
+#modal_header_heading{
+    position: absolute;
+width: 161px;
+height: 23px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+
+#modal_header_icon{
+    position: absolute;
+width: 31px;
+height: 27px;
+left: 547px;
+top: 588px;
+}
+
+#modal_body{
+    height: 600px;
+    background-color: #FFFFFF;
+}
+.modal_body_heading{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+#modal_body_h1{
+    position: absolute;
+width: 319px;
+height: 23px;
+left:0px;
+top: 100px;
+}

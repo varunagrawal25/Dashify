@@ -1,0 +1,275 @@
+#review_heading1{
+    position: absolute;
+width: 352px;
+height: 52px;
+left: 201px;
+top: 218px;
+
+}
+
+#review_heading2{
+    position: absolute;
+width: 453px;
+height: 52px;
+left: 200px;
+top: 824px;
+text-transform: capitalize;
+}
+#review_heading3{
+    position: absolute;
+    width: 833px;
+    height: 52px;
+    left: 200px;
+    top: 1518px;
+
+}
+
+#review_heading4{
+    position: absolute;
+    width: 587px;
+    height: 100px;
+    left: 506px;
+    top: 2324px;
+    text-align: center;
+}
+.review_heading{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 44px;
+color: #3E435D;
+}
+
+#review_contant1{
+    position: absolute;
+width: 531px;
+height: 336px;
+left: 195px;
+top: 302px;
+
+}
+
+#review_contant2{
+    position: absolute;
+width: 477px;
+height: 261px;
+left: 845px;
+top: 1006px;
+}
+
+#review_contant3{
+    position: absolute;
+width: 477px;
+height: 319px;
+left: 832px;
+top: 1730px;
+}
+
+
+#review_contant4{
+    position: absolute;
+width: 983px;
+height: 116px;
+left: 258px;
+top: 2438px;
+text-align: center;
+}
+#review_contant5{
+    position: absolute;
+    width: 666px;
+    height: 135px;
+    left: 258px;
+    top: 3511px;
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 28px;
+color: #3E435D
+}
+
+.review_contant{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 142.7%;
+color: #000000;
+opacity: 0.6;
+}
+
+#rm1{
+    position: absolute;
+width: 457px;
+height: 332px;
+left: 945px;
+top: 256px;
+filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.25));
+border-radius: 10px;
+}
+#rm2{
+    position: absolute;
+    width: 388px;
+    height: 283px;
+    left: 813px;
+    top: 351px;
+    filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+#rm3{
+    position: absolute;
+    width: 427px;
+    height: 309px;
+    left: 200px;
+    top: 980px;
+    filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+#rm4{
+    position: absolute;
+    width: 362px;
+    height: 263px;
+    left: 343px;
+    top: 1098px;
+    filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+#rm5{
+    position: absolute;
+    width: 233px;
+    height: 233px;
+    left: 344px;
+    top: 997px;
+}
+#review_container1{ 
+    position: absolute;
+width: 577px;
+height: 319px;
+left: 200px;
+top: 1780px;
+} 
+#review_container2{
+    position: absolute;
+    width: 1200px;
+    height: 212px;
+    left: 200px;
+    top: 3472px;
+    background: #FFFFFF;
+    border: 1px solid rgba(196, 196, 196, 0.2);
+    box-sizing: border-box;
+    box-shadow: 0px 20px 40px rgba(130, 100, 198, 0.12);
+    border-radius: 10px;
+}
+#review1{
+    position: static;
+width: 406px;
+height: 28px;
+left: 43px;
+top: 0px;
+
+    
+}
+#review2{
+    position: static;
+    width: 558px;
+    height: 29px;
+    left: 44px;
+    top: 0px;
+}
+#review3{
+    position: static;
+    width: 139px;
+    height: 29px;
+    left: 43px;
+    top: 0px;
+}
+#review4{
+    position: static;
+    width: 247px;
+    height: 29px;
+    left: 44px;
+    top: 0px;
+}
+
+.review{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 142.7%;
+color: #333333;
+flex: none;
+order: 1;
+align-self: center;
+margin-top: 40px ;
+}
+
+.icon{
+    position: absolute;
+width: 28px;
+height: 28px;
+left: 0px;
+top: 0px;
+background: linear-gradient(180deg, #8264C6 0%, #5D80E2 100%);
+}
+#review_book_demo_box{
+    border: none;
+    color: #F2F2F2;
+    position: absolute;
+    width: 161px;
+    height: 50px;
+    left: 994px;
+    top: 3554px;
+    background: linear-gradient(90.17deg, #5D80E2 0.17%, #73B6E5 99.89%);
+    box-shadow: 0px 20px 40px rgba(130, 100, 198, 0.2);
+    border-radius: 5px;
+}
+
+.review_book_demo{
+    position: absolute;
+width: 104px;
+height: 18px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: linear-gradient(180deg, #8264C6 0%, #5D80E2 100%);
+opacity: 0.7;
+}
+
+#review_learn_more_box{
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    left: 1171px;
+    top: 3553px;
+    border-color:#8264C6;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+.review_learn_more{
+    position: absolute;
+    width: 104px;
+    height: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color:  #8264C6 ;
+    opacity: 0.7;
+}
+
+.right_icon{
+    margin-right: 20px;
+ 
+    left: 0px;
+top: 0px;
+}
+

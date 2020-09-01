@@ -1,0 +1,64 @@
+#footer_box{
+    position: absolute;
+width: 100%;
+height: 400px;
+top: 4177px;
+background: #3E435D;
+}
+
+#logo{
+    position: absolute;
+width: 154.26px;
+height: 104.68px;
+left: 194.89px;
+top: 4215.29px;
+background: #FFFFFF;
+}
+
+.options{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 33px;
+color: #FFFFFF;
+}
+
+#btn_box{
+  
+width: 161px;
+height: 50px;
+background: linear-gradient(180deg, #8264C6 0%, #5D80E2 100%);
+border-radius: 5px;
+color: #FFFFFF;
+}
+
+.btn{
+
+width: 110px;
+height: 21px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+.rights_box{
+    margin-top: 100px;
+width: 100%;
+height: 50px;
+background: #000000;
+}
+
+#rights{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+padding:15px;
+}

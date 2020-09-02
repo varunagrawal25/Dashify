@@ -3,7 +3,10 @@ import '../css/Support.css'
 import email_icon from '../assets/email_icon.png'
 import call_icon from '../assets/call_icon.png'
 import chat_icon from '../assets/chat_icon.png'
-import { MDBContainer, MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact';
+import camera from '../assets/camera.png'
+import model_img1 from '../assets/model_img1.png'
+import model_img2 from '../assets/model_img2.png'
+import { MDBContainer, MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter ,MDBCol,MDBRow} from 'mdbreact';
 export default class Support extends Component {
     state = {
         modal: false
@@ -56,12 +59,40 @@ export default class Support extends Component {
                                 <span></span>
                                 <span id='modal_header_heading'>Live Support Chat</span>
                             </MDBModalHeader>
-                            <MDBModalBody id='modal_body'>
-                            <div className='modal_body_heading' id='modal_body_h1'>
+                            <MDBModalBody >
+                            <div id='modal_body_heading' >
                             You are chatting with <b>Support Team</b>
                             </div>
-                            <div className='modal_body_contant'></div>
+                            <hr className='modal_hr'/>
+                            
+                            <MDBRow>
+                                <MDBCol className='col-md-3' ><img src={model_img1} alt='model_img1' /></MDBCol>
+                                <MDBCol className='col-md-9'>
+                                <div className='modal_body_subheading'>Support Team</div>
+                                <div className='modal_body_contant'>Hello! How can I help you?</div>
+                                </MDBCol>
+                            </MDBRow>
+                            <hr className='modal_hr'/>
+                            
+                            <MDBRow>
+                                <MDBCol className='col-md-3' ><img src={model_img2} alt='model_img2' /></MDBCol>
+                                <MDBCol className='col-md-9'>
+                                <div className='modal_body_subheading'>You</div>
+                                <div className='modal_body_contant'>Hi there... </div>
+                                </MDBCol>
+                            </MDBRow>
                             </MDBModalBody>
+
+                            
+                                <div id='modal_footer_box'>
+                                    <div id='modal_footer_innerbox'>
+                                     <input placeholder='Type your message...' id='inputbox'/>
+                                     <img src={camera} alt='camera' id='camera' />
+                                     <MDBBtn id='modal_button'>Send</MDBBtn>
+                                     </div>
+
+                                </div>
+                            
                             
                         </MDBModal>
                         </MDBContainer>

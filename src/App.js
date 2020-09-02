@@ -30,7 +30,7 @@ function App() {
              <Route  path="/our news" component={Our_news} />
              <Route  path="/our team" component={Our_team} />
              <Route  path="/review management" component={Review_management} />
-    {/* <Footer/> */}
+    <Footer/>
     </Router>
     </div>
   );

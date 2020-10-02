@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import '../css/Support.css'
 import email_icon from '../assets/email_icon.png'
 import call_icon from '../assets/call_icon.png'
 import chat_icon from '../assets/chat_icon.png'
@@ -27,14 +26,63 @@ export default class Support extends Component {
                      business partnership, software upgrade, refund policy and any other issues
                       related to Dashify
                     </div>
-                    
-                    <input type='text' placeholder='How can we help you today?' id='support_contant2' className='support_contant '/>
-                    <div>
+                    <div >
+                      <span>
+                     <input type='text' placeholder='How can we help you today?' id='support_contant2' className='support_contant '/>
+                     </span>
+                    <span>
                           <button id='Search_box' > 
                           Search
                           </button>
+                        </span>
                         </div>
+
                         <div id='support_heading2' >Have a question?</div>
+                        <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        About Dashify</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        FAQ Center</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        Collapsible Group 3</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</div>
+    </div>
+  </div>
+</div>
                             <div>
                         <span id='support_contant3'>Any more questions?</span>
                         <span id='support_contant4' className='support_contant'>Ask it now! </span>

@@ -36,6 +36,9 @@ import logo from '../assets/Logo.png'
                             <div > 
                             <NavLink to="/blog" className='options'>Blog</NavLink>
                             </div>
+                            <div > 
+                            <NavLink to="/career" className='options'>Career</NavLink>
+                            </div>
                            
                       
                     </MDBCol>
@@ -66,6 +69,10 @@ import logo from '../assets/Logo.png'
                       
                             <div >
                             <NavLink to="/pricing" className='options'>Pricing</NavLink>
+                            </div>
+
+                            <div >
+                            <NavLink to="/scanner" className='options'>Scanner</NavLink>
                             </div>
                             <div >
                             <NavLink to="/support" className='options'>Support</NavLink>

@@ -25,11 +25,12 @@ import home_cf3 from '../assets/home_cf3.png'
 import home_cf4 from '../assets/home_cf4.png'
 import down_arrow from '../assets/down_arrow.png'
 import home_line from '../assets/home_line.png'
+import { MDBRow, MDBCol } from 'mdbreact'
 
 export default class Home extends Component {
     render() {
         return (
-            <div>
+            <div id='home_container'> 
                 <div id='home_heading1' >One Place, All Business</div>
                 <div id='home_contant1' > 
                     <p>
@@ -39,34 +40,46 @@ export default class Home extends Component {
                     </p>
                 </div>
                 <div>
-                          <button id='home_book_demo_box' className='home_book_demo'>
+                         <span>
+                          <button id='home_book_demo_box'>
                           Book A Demo
                           </button>
-                        </div>
-                        <div >
-                          <button id='home_learn_more_box' className='home_learn_more'>
+                        </span>
+                        <span>
+                          <button id='home_learn_more_box' >
                           Learn more
                           </button>
+                        </span>
                         </div>
                         <div id='home_heading2' className='home_heading'>Check How Your Business Appears Online </div>
-                          <div>
-                          <div id='bussiness_box'/>
-                          <div id='bussiness_select1'>Choose country</div>
-                          <img src={down_arrow} alt='down_arrow' id='home_down_arrow1'/>
-                          <div id='bussiness_select2'>Business Name</div>
-                          <img src={down_arrow} alt='down_arrow' id='home_down_arrow2'/>
-                          <img src={home_line} alt='home_line' id='home_line'/>
-                          <div id='bussiness_select3'>Business Type</div>
-                          <img src={down_arrow} alt='down_arrow' id='home_down_arrow3'/>
-
+                         <div id='bussiness_box'>
+                          <MDBRow >
+                          
+                          <MDBCol className='bussiness_select'>Choose country
+                          <img src={down_arrow} alt='down_arrow' className='home_down_arrow'/></MDBCol>
+                          
+                          <MDBCol className='bussiness_select'>Business Name
+                          <img src={down_arrow} alt='down_arrow' className='home_down_arrow'/>
+                          </MDBCol>
+                        
+                          <MDBCol><img src={home_line} alt='home_line' id='home_line'/></MDBCol>
+                          <MDBCol className='bussiness_select'>Business Type
+                          <img src={down_arrow} alt='down_arrow' className='home_down_arrow'/>
+                          </MDBCol>
+                        
+                          <MDBCol>
                           <button id='home_scan_box' className='home_scan'>
                           Scan now
                           </button>
+                          </MDBCol>
+                          </MDBRow>
                           </div>
-                        <div id='home_heading3' className='home_heading'>What Dashify Features </div>
-                         <div>
-                         <div id='home_card1'/>
-                         <div id='home_num_card1' className='home_numbers'>01</div>
+                        <div  className='home_heading'>What Dashify Features </div>
+                        
+                         <div id='home_card1'>
+                         
+                         <MDBRow>
+                             <MDBCol className='md-col-9' >
                         <div id='home_card_heading1' className='home_card_heading'>Management</div>
                         <div id='home_card_subhead1' className='home_card_subhead'>Keep it streamlined</div>
                         <div id='home_card_contant1' className='home_card_contant'>
@@ -75,6 +88,11 @@ export default class Home extends Component {
                             with streamlined simplicity in mind.
                             </p>
                         </div>
+                        </MDBCol>
+                        <MDBCol className='md-col-3'>
+                        <div id='home_num_card1' className='home_numbers'>01</div>
+                        </MDBCol>
+                        </MDBRow>
                         </div>
                         <div>
                         <div id='home_card2'/>
@@ -127,7 +145,7 @@ export default class Home extends Component {
                         </div> 
                         <div id='learn_more'> Learn more</div>
                         <img src={arrow} alt='arrow' id='home_arrow1'/>
-                        <div id='home_heading4' className='home_heading'>Sync Your Business</div>
+                        <div className='home_heading'>Sync Your Business</div>
                         <div id='home_contant2' className='home_contant'>
                             Connect your business with all these great apps from one dashboard
                             </div>
@@ -152,17 +170,17 @@ export default class Home extends Component {
                         Get started
                           </button>
 
-                        <div id='home_heading5' className='home_heading'>Trusted By Companies</div>
+                        <div  className='home_heading'>Trusted By Companies</div>
                         <div  id='home_contant3' className='home_contant'>
                         With our mission in mind we are leading brands into the future of search
                         </div>
                         <div id='cust_stories'>See customer stories</div>
                         <img src={arrow} alt='arrow' id='home_arrow3'/>
-                        <div id='home_heading6' className='home_heading'>Specializing In Brand Awareness</div>
+                        <div  className='home_heading'>Specializing In Brand Awareness</div>
                         <div  id='home_contant4' className='home_contant'>
                         Restaurants, Hotels, Retail, Healthcare, Home Improvement Automative, Fincanical, Many more
                         </div>
-                        <div id='home_heading7' className='home_heading'>Blog</div>
+                        <div  className='home_heading'>Blog</div>
                         <div  id='home_contant5' className='home_contant'>
                         Dashify occasionally accepts articles from guest writers to complement our blog.
                          If you wish to submit an article for consideration, please first check our
@@ -213,7 +231,7 @@ export default class Home extends Component {
                 </div>
                 <div id='all_article'>Read all articles</div>
                         <img src={arrow} alt='arrow' id='home_arrow5'/>
-                <div id='home_heading8' className='home_heading'>We Appreciate Our Customer`s Feedbacks!</div>
+                <div className='home_heading'>We Appreciate Our Customer`s Feedbacks!</div>
                 <div  id='home_contant6' className='home_contant'>
                     Here’s what some of our customers say about our work.
                     </div>
